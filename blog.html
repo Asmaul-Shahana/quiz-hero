@@ -13,17 +13,24 @@
 <body>
     <h1 class="text-center text-4xl">Blog</h1>
     <div class="m-10 p-8 rounded bg-purple-100">
-        <h2 class="text-2xl mb-3">What is the difference between <strong>map</strong>, <strong>filter</strong>, <strong>forEach</strong> and <strong>find</strong>
-            ?</h2>
-            <li><strong>ForEach:</strong> It is used when we need to execute a function for individual element of an
-                array.
-                It does not return a new array based on the given array.</li>
-            <li><strong>Map:</strong> It is used to transform every element of an array by calling a function and return a new array with the elements in the same order as the original array. </li>
-            <li><strong>Filter:</strong> It is used to return a new array with only the elements that meet the condition specified in a function.</li>
-            <li><strong>Find:</strong>It is used to return the first element in the array that satisfies the specified condition. It returns null if no such element is found.</li>
+        <h2 class="text-2xl mb-3">What is the difference between <strong>map</strong>, <strong>filter</strong>,
+            <strong>forEach</strong> and <strong>find</strong>
+            ?
+        </h2>
+        <li><strong>ForEach:</strong> It is used when we need to execute a function for individual element of an
+            array.
+            It does not return a new array based on the given array.</li>
+        <li><strong>Map:</strong> It is used to transform every element of an array by calling a function and return a
+            new array with the elements in the same order as the original array. </li>
+        <li><strong>Filter:</strong> It is used to return a new array with only the elements that meet the condition
+            specified in a function.</li>
+        <li><strong>Find:</strong>It is used to return the first element in the array that satisfies the specified
+            condition. It returns null if no such element is found.</li>
     </div>
     <div class="m-10 p-8 rounded bg-purple-100">
-        <h2 class="text-2xl mb-3">What is the difference between local storage, session storage and cookies?</h2>
+        <h2 class="text-2xl mb-3">What is the difference between <strong>local storage</strong>, <strong>session
+                storage</strong> and <strong>cookies</strong>
+            ?</h2>
         <table class="border-2 border-purple-400">
             <tr>
                 <td class="text-center text-xl">Local Storage</td>
@@ -56,17 +63,33 @@
                 <td>Old feature of HTML4</td>
             </tr>
         </table>
-        </div>
-        <div class="m-10 p-8 rounded bg-purple-100">
-            <h2 class="text-2xl mb-3">What is event loop and how does it work?</h2>
-            <p>The event loop is a mechanism in JavaScript for handling asynchronous operations. Although JavaScript executes all operations on a single thread, it gives us the feel of multi-threading.</p>
-            <p>The <strong>call stack</strong> keeps track of all the operations in the line to be executed. When a function is done executing, it is popped from the stack.</p>
-            <p>The <strong>event queue</strong> sends new functions to the stack for processing, It is like the queue data structure to maintain the sequential execution of the operations.</p>
-            <p> Event loop allows JavaScript to handle multiple concurrent events efficiently, making it suitable for building responsive and interactive web applications.</p>
-        </div>
-        <div class="m-10 p-8 rounded bg-purple-100">
-            
-        </div>
+    </div>
+    <div class="m-10 p-8 rounded bg-purple-100">
+        <h2 class="text-2xl mb-3">What is <strong>event loop</strong> and how does it work?</h2>
+        <p>The event loop is a mechanism in JavaScript for handling asynchronous operations. Although JavaScript
+            executes all operations on a single thread, it gives us the feel of multi-threading.</p>
+        <p>The <strong>call stack</strong> keeps track of all the operations in the line to be executed. When a function
+            is done executing, it is popped from the stack.</p>
+        <p>The <strong>event queue</strong> sends new functions to the stack for processing, It is like the queue data
+            structure to maintain the sequential execution of the operations.</p>
+        <p> Event loop allows JavaScript to handle multiple concurrent events efficiently, making it suitable for
+            building responsive and interactive web applications.</p>
+    </div>
+    <div class="m-10 p-8 rounded bg-purple-100">
+        <h2 class="text-2xl mb-3">What does the <strong><i>quizTimer()</i></strong> method do?</h2>
+        <p>This function sets up a timer that counts from 0 and displays the elapsed time the element with with
+            id="count". The timer is formatted to minutes and seconds.</p>
+        <p>The function takes an argument "dismiss" and if it is true then it clears the interval timer with the
+            clearInterval() function. It stops the timer when the quiz is over.</p>
+    </div>
+    <div class="m-10 p-8 rounded bg-purple-100">
+        <h2 class="text-2xl mb-3">What does the <strong><i>chooseQuiz()</i></strong> method do?
+        </h2>
+        <p>This function takes two arguments "index" and "givenAns"</p>
+        <p>The function checks if there is an answer already for the current question or not. If there is, it updates
+            the "givenAns" property, else it creates a new answer and saves it.</p>
+        <p>It then calls another function displayAnswer() to display the current list of answers of the quiz.</p>
+    </div>
 </body>
 
 </html>
