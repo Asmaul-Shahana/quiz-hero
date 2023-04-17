@@ -12,8 +12,9 @@
 
 <body>
     <h1 class="text-center text-4xl">Blog</h1>
-    <div class="m-10">
-        <h2 class="text-2xl">What is the difference between map, filter, forEach and find?</h2>
+    <div class="m-10 p-8 rounded bg-purple-100">
+        <h2 class="text-2xl mb-3">What is the difference between <strong>map</strong>, <strong>filter</strong>, <strong>forEach</strong> and <strong>find</strong>
+            ?</h2>
             <li><strong>ForEach:</strong> It is used when we need to execute a function for individual element of an
                 array.
                 It does not return a new array based on the given array.</li>
@@ -21,6 +22,42 @@
             <li><strong>Filter:</strong> It is used to return a new array with only the elements that meet the condition specified in a function.</li>
             <li><strong>Find:</strong>It is used to return the first element in the array that satisfies the specified condition. It returns null if no such element is found.</li>
     </div>
+    <div class="m-10 p-8 rounded bg-purple-100">
+        <h2 class="text-2xl mb-3">What is the difference between local storage, session storage and cookies?</h2>
+        
+        <table class="border-2 border-purple-400">
+            <tr>
+                <td class="text-center text-xl">Local Storage</td>
+                <td class="text-center text-xl">Session Storage</td>
+                <td class="text-center text-xl">Cookies</td>
+            </tr>
+            <tr>
+                <td>The data stored in Local Storage is not deleted when browser is closed.</td>
+                <td>The data stored in Session Storage is deleted when the browser is closed.</td>
+                <td>The data can be set to expire at a certain time.</td>
+            </tr>
+            <tr>
+                <td>It has no expiration date.</td>
+                <td>Data expires when the browser session ends.</td>
+                <td>The expiration is manually set.</td>
+            </tr>
+            <tr>
+                <td>The data is not sent to server but stored in browser only.</td>
+                <td>The data is not sent to server but stored in browser only.</td>
+                <td>The data is sent to server and stored in browser too.</td>
+            </tr>
+            <tr>
+                <td>Capacity is 10MB</td>
+                <td>Capacity is 5MB</td>
+                <td>Capacity is 4KB</td>
+            </tr>
+            <tr>
+                <td>New feature of HTML5</td>
+                <td>New feature of HTML5</td>
+                <td>Old feature of HTML4</td>
+            </tr>
+        </table>
+        </div>
 </body>
 
 </html>
